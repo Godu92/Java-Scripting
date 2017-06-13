@@ -1,0 +1,19 @@
+template header
+
+ruleName
+transaction
+condition
+consequent
+
+package com.capitalone;
+
+template "Java Scripting"
+
+rule "@{ruleName} : @{row.rowNumber}"
+    when
+        $t : @{transaction}(@{condition})
+    then
+        @{consequent}
+end
+
+end template
