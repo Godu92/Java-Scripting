@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.script;
 
 import java.util.ArrayList;
@@ -26,7 +23,7 @@ import com.script.util.ConsoleOutputCatcher;
 
 /**
  * @author dougs
- *
+ * 
  */
 public class Main {
 	
@@ -130,16 +127,17 @@ public class Main {
 			
 			op.setOutput(coc.stop());
 		}
-		String object = null;
+		String fileLocation = null;
 		try {
-			object = odc.compile(ruleMaps, Thread.currentThread()
+			fileLocation = odc.compile(ruleMaps, Thread.currentThread()
 					.getContextClassLoader().getResourceAsStream(templateName));
 		} catch (NullPointerException e) {
-			object = odc.compile(ruleMaps,
+			
+			fileLocation = odc.compile(ruleMaps,
 					Thread.currentThread().getContextClassLoader()
 							.getResourceAsStream("resources/" + templateName));
 		}
-		return object;
+		return fileLocation;
 	}
 	
 	private static Condition getCondition(String field, Condition.Operator o,
