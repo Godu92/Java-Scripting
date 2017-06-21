@@ -5,7 +5,7 @@ transaction
 condition
 consequent
 
-package com.script;
+package com.capitalone;
 
 template "Java Scripting"
 
