@@ -1,6 +1,3 @@
-/**
- * 
- */
 package com.script;
 
 import java.util.ArrayList;
@@ -34,8 +31,31 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Outputer op = new Outputer();
+		
+		// List<String> arguments = Arrays.asList(args);
+		/* Needs a lot more work */
+		// Collect command line args, if any
+		// if (args.length != 0) {
+		// String line = "";
+		// for (String s : arguments) {
+		// line = "";
+		// // Maybe recombine every string until run into ;
+		// while (!s.contains(";")) {
+		// line = s;
+		// int i = arguments.indexOf(s);
+		// s = arguments.get(++i);
+		// line += " " + s;
+		// if (s.contains(";")) {
+		// break;
+		// }
+		// }
+		//
+		// System.out.println(line);
+		// }
+		// } else {
+		Scanner scan;
 		while (true) {
-			Scanner scan = new Scanner(System.in);
+			scan = new Scanner(System.in);
 			
 			System.out.println("Please type the code you wish to run. "
 					+ "\n\tHit enter to submit, Q to quit:");
@@ -44,20 +64,9 @@ public class Main {
 			// System.out.println("Hello");
 			String code = scan.nextLine();
 			
-			if ("q".equalsIgnoreCase(code)) {
-				scan.close();
-				System.exit(0);
+			if ("q".equalsIgnoreCase(code) || "quit".equalsIgnoreCase(code)) {
+				break;
 			}
-			
-			// For test case
-			// String code =
-			// + "for(int i = 0; i<10;i++)"
-			// + "\n\t"
-			// + "{"
-			// + "\n\t"
-			// + "\tSystem.out.print(i + \" | \");"
-			// + "\n\t"
-			// + "}";
 			
 			OrderEvent orderEvent = new OrderEvent();
 			orderEvent.setValid(true);
@@ -66,6 +75,8 @@ public class Main {
 					.execute(orderEvent);
 			
 		}
+		scan.close();
+		// }
 	}
 	
 	private static String getTransactionValidationDrl(String code,
