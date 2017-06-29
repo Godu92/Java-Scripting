@@ -31,6 +31,7 @@ public class Main {
 	
 	public static void main(String[] args) {
 		Outputer op = new Outputer();
+		String code = "";
 		
 		// List<String> arguments = Arrays.asList(args);
 		/* Needs a lot more work */
@@ -54,27 +55,29 @@ public class Main {
 		// }
 		// } else {
 		Scanner scan;
-		while (true) {
-			scan = new Scanner(System.in);
-			
-			System.out.println("Please type the code you wish to run. "
-					+ "\n\tHit enter to submit, Q to quit:");
-			
+		scan = new Scanner(System.in);
+		List<String> codeIn = new ArrayList<>();
+		System.out.println("Please type the code you wish to run. "
+				+ "\nHit type \"End\" on it's own line to submit code:");
+		while (scan.hasNext()) {
 			// Example:
 			// System.out.println("Hello");
-			String code = scan.nextLine();
-			
-			if ("q".equalsIgnoreCase(code) || "quit".equalsIgnoreCase(code)) {
+			code = scan.nextLine();
+			if ("end".equalsIgnoreCase(code)) {
 				break;
+			} else {
+				codeIn.add(code);
 			}
 			
-			OrderEvent orderEvent = new OrderEvent();
-			orderEvent.setValid(true);
-			
-			getStatelessKieSession(getTransactionValidationDrl(code, op))
-					.execute(orderEvent);
-			
 		}
+		String codeLine = "";
+		for (String c : codeIn) {
+			codeLine += c;
+		}
+		OrderEvent orderEvent = new OrderEvent();
+		orderEvent.setValid(true);
+		getStatelessKieSession(getTransactionValidationDrl(codeLine, op))
+				.execute(orderEvent);
 		scan.close();
 		// }
 	}
