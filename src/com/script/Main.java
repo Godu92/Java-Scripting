@@ -58,7 +58,7 @@ public class Main {
 		scan = new Scanner(System.in);
 		List<String> codeIn = new ArrayList<>();
 		System.out.println("Please type the code you wish to run. "
-				+ "\nHit type \"End\" on it's own line to submit code:");
+				+ "\nType \"End\" on it's own line to submit code:");
 		while (scan.hasNext()) {
 			// Example:
 			// System.out.println("Hello");
