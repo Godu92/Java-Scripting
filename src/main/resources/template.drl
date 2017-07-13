@@ -1,0 +1,20 @@
+template header
+
+package com.script;
+
+template "Java Scripting"
+
+	ruleName
+	transaction
+	condition
+	consequent
+
+rule "Rule_@{ruleName} : Number_@{row.rowNumber}"
+
+    when
+        $t : @{transaction}(@{condition})
+    then
+        @{consequent}
+end
+
+end template
