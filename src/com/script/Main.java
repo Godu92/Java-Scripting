@@ -64,6 +64,9 @@ public class Main {
 			// System.out.println("Hello");
 			code = scan.nextLine();
 			if ("end".equalsIgnoreCase(code)) {
+				if (code.trim().isEmpty()) {
+					System.exit(0);
+				}
 				break;
 			} else {
 				codeIn.add(code);
