@@ -64,7 +64,7 @@ public class AOP {
 		
 	}
 	
-	@Pointcut("execution(* com.script.*(..))")
+	@Pointcut("execution(* com.script.Scripting.*(..))")
 	public void everything() {
 		
 	}

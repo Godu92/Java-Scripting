@@ -1,11 +1,22 @@
 package com.script.controller;
 
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.script.Scripting;
+
 @RestController
-public class RestController {
+public class RestControl {
 	
-	// @RequestMapping(value = "/users", method = RequestMethod.GET, produces =
-	// {
-	// MediaType.APPLICATION_JSON_VALUE })
+	@RequestMapping(value = "/codeIn", method = RequestMethod.GET, produces = {
+			MediaType.APPLICATION_JSON_VALUE })
+	public String codeIn() {
+		Scripting sc = new Scripting();
+		sc.start();
+		return "Hi";
+	}
 	// public List<User> getUsers() {
 	//
 	// System.out.println("Rest Controller");

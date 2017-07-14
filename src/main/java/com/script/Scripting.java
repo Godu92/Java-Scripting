@@ -29,7 +29,8 @@ public class Scripting {
 	
 	private static final String templateName = "template.drl";
 	
-	public static void start() {
+	/* Modify this to take in the strings to run */
+	public void start() {
 		Outputer op = new Outputer();
 		String code = "";
 		
@@ -64,6 +65,9 @@ public class Scripting {
 			// System.out.println("Hello");
 			code = scan.nextLine();
 			if ("end".equalsIgnoreCase(code)) {
+				if (code.trim().isEmpty()) {
+					System.exit(0);
+				}
 				break;
 			} else {
 				codeIn.add(code);
@@ -112,7 +116,7 @@ public class Scripting {
 					.getKieBase().newStatelessKieSession();
 		} catch (Exception e) {
 			System.out.println("Hit error, retrying");
-			main(null);
+			new Scripting().start();
 		}
 		
 		return sks;
