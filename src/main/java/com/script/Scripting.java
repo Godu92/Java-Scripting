@@ -26,54 +26,42 @@ import com.script.util.ConsoleOutputCatcher;
  *
  */
 public class Scripting {
-	
+	public static String codeOutput = "";
+	public static Map<String, Object> outMap = new HashMap<>();
 	private static final String templateName = "template.drl";
 	
 	/* Modify this to take in the strings to run */
-	public void start() {
+	public Map<String, Object> start(String input) {
 		Outputer op = new Outputer();
-		String code = "";
+		String code = input;
 		
-		// List<String> arguments = Arrays.asList(args);
-		/* Needs a lot more work */
-		// Collect command line args, if any
-		// if (args.length != 0) {
-		// String line = "";
-		// for (String s : arguments) {
-		// line = "";
-		// // Maybe recombine every string until run into ;
-		// while (!s.contains(";")) {
-		// line = s;
-		// int i = arguments.indexOf(s);
-		// s = arguments.get(++i);
-		// line += " " + s;
-		// if (s.contains(";")) {
-		// break;
-		// }
-		// }
-		//
-		// System.out.println(line);
-		// }
-		// } else {
 		Scanner scan;
 		scan = new Scanner(System.in);
 		List<String> codeIn = new ArrayList<>();
-		System.out.println("Please type the code you wish to run. "
-				+ "\nType \"End\" on it's own line to submit code:");
-		while (scan.hasNext()) {
-			// Example:
-			// System.out.println("Hello");
-			code = scan.nextLine();
-			if ("end".equalsIgnoreCase(code)) {
-				if (code.trim().isEmpty()) {
-					System.exit(0);
-				}
-				break;
-			} else {
-				codeIn.add(code);
-			}
+		if (code.trim().isEmpty()) {
 			
+			System.out.println("Please type the code you wish to run. "
+					+ "\nType \"End\" on it's own line to submit code:");
+			while (scan.hasNext()) {
+				// Example:
+				// System.out.println("Hello");
+				code = scan.nextLine();
+				if ("end".equalsIgnoreCase(code)) {
+					if (code.trim().isEmpty()) {
+						break;
+					}
+					break;
+				} else {
+					codeIn.add(code);
+				}
+				
+			}
 		}
+		if (!code.contains(";")) {
+			code += ";";
+		}
+		codeIn.add(code);
+		
 		String codeLine = "";
 		for (String c : codeIn) {
 			codeLine += c;
@@ -83,7 +71,7 @@ public class Scripting {
 		getStatelessKieSession(getTransactionValidationDrl(codeLine, op))
 				.execute(orderEvent);
 		scan.close();
-		// }
+		return outMap;
 	}
 	
 	private static String getTransactionValidationDrl(String code,
@@ -91,10 +79,11 @@ public class Scripting {
 		
 		List<Rule> rl = new ArrayList<>();
 		
-		rl.add(getRule("Always passes, runs code", Rule.eventType.TRANSACTION,
-				Arrays.asList(getCondition("valid",
-						Condition.Operator.NOT_EQUAL_TO, false)),
-				code));
+		rl.add(Rule
+				.getRule("Always passes, runs code", Rule.eventType.TRANSACTION,
+						Arrays.asList(Condition.getCondition(true,
+								Condition.Operator.NOT_EQUAL_TO, false)),
+						code));
 		
 		return getRuleTemplate(rl, op);
 	}
@@ -116,7 +105,7 @@ public class Scripting {
 					.getKieBase().newStatelessKieSession();
 		} catch (Exception e) {
 			System.out.println("Hit error, retrying");
-			new Scripting().start();
+			new Scripting().start(null);
 		}
 		
 		return sks;
@@ -141,43 +130,24 @@ public class Scripting {
 			ruleMaps.add(map);
 			
 			ConsoleOutputCatcher coc = new ConsoleOutputCatcher();
-			
+			outMap = map;
 			coc.start();
-			
-			System.out.println("{CODE}: \n\t" + r.getConsequent());
+			outMap.put("{CODE}: \n\t", r.getConsequent());
+			codeOutput = "{CODE}: \n\t" + r.getConsequent();
+			System.out.println(codeOutput);
 			
 			op.setOutput(coc.stop());
 		}
-		String object = null;
+		String template = null;
 		try {
-			object = odc.compile(ruleMaps, Thread.currentThread()
+			template = odc.compile(ruleMaps, Thread.currentThread()
 					.getContextClassLoader().getResourceAsStream(templateName));
 		} catch (NullPointerException e) {
-			object = odc.compile(ruleMaps,
+			template = odc.compile(ruleMaps,
 					Thread.currentThread().getContextClassLoader()
 							.getResourceAsStream("resources/" + templateName));
 		}
-		return object;
+		return template;
 	}
 	
-	private static Condition getCondition(String field, Condition.Operator o,
-			Object value) {
-		
-		Condition c = new Condition();
-		c.setField(field);
-		c.setOperator(o);
-		c.setValue(value);
-		return c;
-	}
-	
-	private static Rule getRule(String name, Rule.eventType t,
-			List<Condition> cs, String errorMessage) {
-		
-		Rule r = new Rule();
-		r.setName(name);
-		r.setEventType(t);
-		r.setConditions(cs);
-		r.setConsequent(errorMessage);
-		return r;
-	}
 }

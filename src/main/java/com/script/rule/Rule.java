@@ -65,6 +65,17 @@ public class Rule {
 		this.eventType = re;
 	}
 	
+	public static Rule getRule(String name, Rule.eventType t,
+			List<Condition> cs, String errorMessage) {
+		
+		Rule r = new Rule();
+		r.setName(name);
+		r.setEventType(t);
+		r.setConditions(cs);
+		r.setConsequent(errorMessage);
+		return r;
+	}
+	
 	@Override
 	public String toString() {
 		
@@ -111,7 +122,7 @@ public class Rule {
 	
 	public enum eventType {
 		
-		ORDER("ORDER"), INVOICE("INVOICE"), TRANSACTION("TRANSACTION");
+		TRANSACTION("TRANSACTION");
 		
 		private final String value;
 		

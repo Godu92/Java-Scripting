@@ -96,3 +96,1279 @@
 					FrameworkServlet 'dispatcherServlet': initialization started
 [INFO] [16342 ms] [07-14-2017 13:36:27] [DispatcherServlet (initServletBean : 508)] -
 					FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+[INFO] [3266 ms] [07-14-2017 14:25:16] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1621 ms
+[INFO] [4599 ms] [07-14-2017 14:25:17] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68267da0: startup date [Fri Jul 14 14:25:14 EDT 2017]; root of context hierarchy
+[INFO] [4689 ms] [07-14-2017 14:25:17] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4698 ms] [07-14-2017 14:25:17] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4699 ms] [07-14-2017 14:25:17] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4719 ms] [07-14-2017 14:25:17] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4720 ms] [07-14-2017 14:25:17] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4737 ms] [07-14-2017 14:25:17] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4737 ms] [07-14-2017 14:25:17] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4738 ms] [07-14-2017 14:25:17] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4821 ms] [07-14-2017 14:25:17] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [9006 ms] [07-14-2017 14:25:21] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [9028 ms] [07-14-2017 14:25:22] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+[INFO] [3264 ms] [07-14-2017 14:51:58] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1736 ms
+[INFO] [4347 ms] [07-14-2017 14:52:00] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@683dbc2c: startup date [Fri Jul 14 14:51:57 EDT 2017]; root of context hierarchy
+[INFO] [4546 ms] [07-14-2017 14:52:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4550 ms] [07-14-2017 14:52:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4551 ms] [07-14-2017 14:52:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4645 ms] [07-14-2017 14:52:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4646 ms] [07-14-2017 14:52:00] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4683 ms] [07-14-2017 14:52:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4684 ms] [07-14-2017 14:52:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4684 ms] [07-14-2017 14:52:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4812 ms] [07-14-2017 14:52:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [23867 ms] [07-14-2017 14:52:19] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [23887 ms] [07-14-2017 14:52:19] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO] [3600 ms] [07-14-2017 14:54:15] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1707 ms
+[INFO] [4676 ms] [07-14-2017 14:54:16] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@68267da0: startup date [Fri Jul 14 14:54:13 EDT 2017]; root of context hierarchy
+[INFO] [4749 ms] [07-14-2017 14:54:16] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4762 ms] [07-14-2017 14:54:16] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4762 ms] [07-14-2017 14:54:16] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4782 ms] [07-14-2017 14:54:16] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4783 ms] [07-14-2017 14:54:16] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4800 ms] [07-14-2017 14:54:16] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4800 ms] [07-14-2017 14:54:16] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4801 ms] [07-14-2017 14:54:16] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4980 ms] [07-14-2017 14:54:17] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [8133 ms] [07-14-2017 14:54:20] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [8152 ms] [07-14-2017 14:54:20] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO] [3123 ms] [07-14-2017 14:57:27] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1630 ms
+[INFO] [4522 ms] [07-14-2017 14:57:28] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@683dbc2c: startup date [Fri Jul 14 14:57:25 EDT 2017]; root of context hierarchy
+[INFO] [4660 ms] [07-14-2017 14:57:28] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4664 ms] [07-14-2017 14:57:28] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4664 ms] [07-14-2017 14:57:28] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4686 ms] [07-14-2017 14:57:28] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4686 ms] [07-14-2017 14:57:28] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4706 ms] [07-14-2017 14:57:28] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4707 ms] [07-14-2017 14:57:28] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4708 ms] [07-14-2017 14:57:28] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4781 ms] [07-14-2017 14:57:29] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [14228 ms] [07-14-2017 14:57:38] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [14247 ms] [07-14-2017 14:57:38] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO] [3696 ms] [07-14-2017 15:00:41] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1903 ms
+[INFO] [5176 ms] [07-14-2017 15:00:42] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@683dbc2c: startup date [Fri Jul 14 15:00:39 EDT 2017]; root of context hierarchy
+[INFO] [5285 ms] [07-14-2017 15:00:42] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [5290 ms] [07-14-2017 15:00:42] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [5291 ms] [07-14-2017 15:00:42] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [5314 ms] [07-14-2017 15:00:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [5315 ms] [07-14-2017 15:00:42] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [5332 ms] [07-14-2017 15:00:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [5333 ms] [07-14-2017 15:00:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [5334 ms] [07-14-2017 15:00:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [5414 ms] [07-14-2017 15:00:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [6936 ms] [07-14-2017 15:00:44] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [6959 ms] [07-14-2017 15:00:44] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+[INFO] [3334 ms] [07-14-2017 15:02:25] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1610 ms
+[INFO] [4295 ms] [07-14-2017 15:02:26] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@683dbc2c: startup date [Fri Jul 14 15:02:24 EDT 2017]; root of context hierarchy
+[INFO] [4369 ms] [07-14-2017 15:02:26] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4373 ms] [07-14-2017 15:02:26] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4373 ms] [07-14-2017 15:02:26] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4393 ms] [07-14-2017 15:02:26] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4394 ms] [07-14-2017 15:02:26] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4410 ms] [07-14-2017 15:02:26] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4411 ms] [07-14-2017 15:02:26] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4411 ms] [07-14-2017 15:02:26] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4477 ms] [07-14-2017 15:02:26] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3135 ms] [07-14-2017 15:02:53] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1600 ms
+[INFO] [4255 ms] [07-14-2017 15:02:54] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2638011: startup date [Fri Jul 14 15:02:51 EDT 2017]; root of context hierarchy
+[INFO] [4333 ms] [07-14-2017 15:02:54] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4337 ms] [07-14-2017 15:02:54] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4338 ms] [07-14-2017 15:02:54] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4361 ms] [07-14-2017 15:02:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4362 ms] [07-14-2017 15:02:54] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4382 ms] [07-14-2017 15:02:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4382 ms] [07-14-2017 15:02:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4382 ms] [07-14-2017 15:02:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4428 ms] [07-14-2017 15:02:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [10111 ms] [07-14-2017 15:03:00] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [10158 ms] [07-14-2017 15:03:00] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+[INFO] [3326 ms] [07-14-2017 15:05:32] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1766 ms
+[INFO] [4375 ms] [07-14-2017 15:05:33] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2638011: startup date [Fri Jul 14 15:05:30 EDT 2017]; root of context hierarchy
+[INFO] [4447 ms] [07-14-2017 15:05:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4451 ms] [07-14-2017 15:05:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4452 ms] [07-14-2017 15:05:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4469 ms] [07-14-2017 15:05:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4470 ms] [07-14-2017 15:05:33] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4525 ms] [07-14-2017 15:05:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4561 ms] [07-14-2017 15:05:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4563 ms] [07-14-2017 15:05:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4628 ms] [07-14-2017 15:05:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [7360 ms] [07-14-2017 15:05:36] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [7380 ms] [07-14-2017 15:05:36] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO] [4197 ms] [07-14-2017 15:07:05] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 2547 ms
+[INFO] [5633 ms] [07-14-2017 15:07:07] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ff29830: startup date [Fri Jul 14 15:07:03 EDT 2017]; root of context hierarchy
+[INFO] [5713 ms] [07-14-2017 15:07:07] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [5720 ms] [07-14-2017 15:07:07] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [5728 ms] [07-14-2017 15:07:07] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [5787 ms] [07-14-2017 15:07:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [5788 ms] [07-14-2017 15:07:07] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [5816 ms] [07-14-2017 15:07:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [5818 ms] [07-14-2017 15:07:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [5819 ms] [07-14-2017 15:07:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [5908 ms] [07-14-2017 15:07:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4661 ms] [07-14-2017 15:08:40] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 2348 ms
+[INFO] [5986 ms] [07-14-2017 15:08:41] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@79c242bc: startup date [Fri Jul 14 15:08:37 EDT 2017]; root of context hierarchy
+[INFO] [6253 ms] [07-14-2017 15:08:41] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [6266 ms] [07-14-2017 15:08:41] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [6268 ms] [07-14-2017 15:08:41] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [6456 ms] [07-14-2017 15:08:41] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [6458 ms] [07-14-2017 15:08:41] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [6520 ms] [07-14-2017 15:08:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [6529 ms] [07-14-2017 15:08:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [6531 ms] [07-14-2017 15:08:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [6688 ms] [07-14-2017 15:08:42] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [16281 ms] [07-14-2017 15:08:51] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [16315 ms] [07-14-2017 15:08:51] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 33 ms
+[INFO] [55200 ms] [07-14-2017 15:09:30] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 487 ms
+[INFO] [55383 ms] [07-14-2017 15:09:30] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@609e72ab: startup date [Fri Jul 14 15:09:30 EDT 2017]; root of context hierarchy
+[INFO] [55391 ms] [07-14-2017 15:09:30] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [55393 ms] [07-14-2017 15:09:30] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [55394 ms] [07-14-2017 15:09:30] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [55402 ms] [07-14-2017 15:09:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [55402 ms] [07-14-2017 15:09:30] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [55408 ms] [07-14-2017 15:09:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [55409 ms] [07-14-2017 15:09:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [55409 ms] [07-14-2017 15:09:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [55425 ms] [07-14-2017 15:09:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [61586 ms] [07-14-2017 15:09:37] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [61591 ms] [07-14-2017 15:09:37] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+[INFO] [106459 ms] [07-14-2017 15:10:21] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 551 ms
+[INFO] [106597 ms] [07-14-2017 15:10:22] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@792c82eb: startup date [Fri Jul 14 15:10:21 EDT 2017]; root of context hierarchy
+[INFO] [106604 ms] [07-14-2017 15:10:22] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [106606 ms] [07-14-2017 15:10:22] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [106606 ms] [07-14-2017 15:10:22] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [106610 ms] [07-14-2017 15:10:22] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [106611 ms] [07-14-2017 15:10:22] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [106615 ms] [07-14-2017 15:10:22] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [106615 ms] [07-14-2017 15:10:22] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [106616 ms] [07-14-2017 15:10:22] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [106628 ms] [07-14-2017 15:10:22] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [120550 ms] [07-14-2017 15:10:36] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 722 ms
+[INFO] [120887 ms] [07-14-2017 15:10:36] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@51b1948: startup date [Fri Jul 14 15:10:35 EDT 2017]; root of context hierarchy
+[INFO] [120898 ms] [07-14-2017 15:10:36] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [120899 ms] [07-14-2017 15:10:36] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [120900 ms] [07-14-2017 15:10:36] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [120906 ms] [07-14-2017 15:10:36] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [120907 ms] [07-14-2017 15:10:36] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [120913 ms] [07-14-2017 15:10:36] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [120914 ms] [07-14-2017 15:10:36] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [120914 ms] [07-14-2017 15:10:36] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [120939 ms] [07-14-2017 15:10:36] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [126278 ms] [07-14-2017 15:10:41] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [126287 ms] [07-14-2017 15:10:41] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 8 ms
+[INFO] [157894 ms] [07-14-2017 15:11:13] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 452 ms
+[INFO] [158014 ms] [07-14-2017 15:11:13] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2d304460: startup date [Fri Jul 14 15:11:12 EDT 2017]; root of context hierarchy
+[INFO] [158034 ms] [07-14-2017 15:11:13] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [158039 ms] [07-14-2017 15:11:13] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [158040 ms] [07-14-2017 15:11:13] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [158046 ms] [07-14-2017 15:11:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [158047 ms] [07-14-2017 15:11:13] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [158054 ms] [07-14-2017 15:11:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [158055 ms] [07-14-2017 15:11:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [158055 ms] [07-14-2017 15:11:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [158069 ms] [07-14-2017 15:11:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [194913 ms] [07-14-2017 15:11:50] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 418 ms
+[INFO] [195026 ms] [07-14-2017 15:11:50] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@1ab8a5db: startup date [Fri Jul 14 15:11:50 EDT 2017]; root of context hierarchy
+[INFO] [195036 ms] [07-14-2017 15:11:50] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [195037 ms] [07-14-2017 15:11:50] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [195038 ms] [07-14-2017 15:11:50] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [195043 ms] [07-14-2017 15:11:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [195044 ms] [07-14-2017 15:11:50] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [195047 ms] [07-14-2017 15:11:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [195047 ms] [07-14-2017 15:11:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [195048 ms] [07-14-2017 15:11:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [195061 ms] [07-14-2017 15:11:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [219570 ms] [07-14-2017 15:12:15] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 357 ms
+[INFO] [219745 ms] [07-14-2017 15:12:15] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45b70864: startup date [Fri Jul 14 15:12:14 EDT 2017]; root of context hierarchy
+[INFO] [219762 ms] [07-14-2017 15:12:15] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [219771 ms] [07-14-2017 15:12:15] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [219771 ms] [07-14-2017 15:12:15] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [219776 ms] [07-14-2017 15:12:15] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [219777 ms] [07-14-2017 15:12:15] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [219782 ms] [07-14-2017 15:12:15] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [219783 ms] [07-14-2017 15:12:15] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [219784 ms] [07-14-2017 15:12:15] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [219794 ms] [07-14-2017 15:12:15] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [224049 ms] [07-14-2017 15:12:19] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 400 ms
+[INFO] [224146 ms] [07-14-2017 15:12:19] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6cac699c: startup date [Fri Jul 14 15:12:19 EDT 2017]; root of context hierarchy
+[INFO] [224153 ms] [07-14-2017 15:12:19] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [224157 ms] [07-14-2017 15:12:19] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [224158 ms] [07-14-2017 15:12:19] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [224162 ms] [07-14-2017 15:12:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [224163 ms] [07-14-2017 15:12:19] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [224166 ms] [07-14-2017 15:12:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [224166 ms] [07-14-2017 15:12:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [224167 ms] [07-14-2017 15:12:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [224177 ms] [07-14-2017 15:12:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [229487 ms] [07-14-2017 15:12:25] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 451 ms
+[INFO] [229590 ms] [07-14-2017 15:12:25] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@408db11a: startup date [Fri Jul 14 15:12:24 EDT 2017]; root of context hierarchy
+[INFO] [229612 ms] [07-14-2017 15:12:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [229615 ms] [07-14-2017 15:12:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [229616 ms] [07-14-2017 15:12:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [229621 ms] [07-14-2017 15:12:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [229622 ms] [07-14-2017 15:12:25] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [229625 ms] [07-14-2017 15:12:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [229625 ms] [07-14-2017 15:12:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [229626 ms] [07-14-2017 15:12:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [229637 ms] [07-14-2017 15:12:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [242933 ms] [07-14-2017 15:12:38] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 408 ms
+[INFO] [243070 ms] [07-14-2017 15:12:38] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@257d1be3: startup date [Fri Jul 14 15:12:38 EDT 2017]; root of context hierarchy
+[INFO] [243077 ms] [07-14-2017 15:12:38] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [243080 ms] [07-14-2017 15:12:38] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [243080 ms] [07-14-2017 15:12:38] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [243084 ms] [07-14-2017 15:12:38] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [243085 ms] [07-14-2017 15:12:38] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [243089 ms] [07-14-2017 15:12:38] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [243090 ms] [07-14-2017 15:12:38] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [243090 ms] [07-14-2017 15:12:38] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [243104 ms] [07-14-2017 15:12:38] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [264818 ms] [07-14-2017 15:13:00] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 541 ms
+[INFO] [264950 ms] [07-14-2017 15:13:00] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2aad2ca: startup date [Fri Jul 14 15:12:59 EDT 2017]; root of context hierarchy
+[INFO] [264958 ms] [07-14-2017 15:13:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [264963 ms] [07-14-2017 15:13:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [264964 ms] [07-14-2017 15:13:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [264973 ms] [07-14-2017 15:13:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [264975 ms] [07-14-2017 15:13:00] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [264986 ms] [07-14-2017 15:13:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [264988 ms] [07-14-2017 15:13:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [264988 ms] [07-14-2017 15:13:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [264999 ms] [07-14-2017 15:13:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [268446 ms] [07-14-2017 15:13:03] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 443 ms
+[INFO] [268539 ms] [07-14-2017 15:13:04] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@14025d83: startup date [Fri Jul 14 15:13:03 EDT 2017]; root of context hierarchy
+[INFO] [268544 ms] [07-14-2017 15:13:04] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [268545 ms] [07-14-2017 15:13:04] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [268546 ms] [07-14-2017 15:13:04] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [268550 ms] [07-14-2017 15:13:04] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [268551 ms] [07-14-2017 15:13:04] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [268556 ms] [07-14-2017 15:13:04] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [268556 ms] [07-14-2017 15:13:04] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [268556 ms] [07-14-2017 15:13:04] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [268566 ms] [07-14-2017 15:13:04] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3483 ms] [07-18-2017 11:58:24] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1488 ms
+[INFO] [4557 ms] [07-18-2017 11:58:25] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac82ca4: startup date [Tue Jul 18 11:58:22 EDT 2017]; root of context hierarchy
+[INFO] [4605 ms] [07-18-2017 11:58:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4609 ms] [07-18-2017 11:58:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4610 ms] [07-18-2017 11:58:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4623 ms] [07-18-2017 11:58:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4623 ms] [07-18-2017 11:58:25] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4638 ms] [07-18-2017 11:58:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4638 ms] [07-18-2017 11:58:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4639 ms] [07-18-2017 11:58:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4682 ms] [07-18-2017 11:58:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [1230511 ms] [07-18-2017 12:18:51] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [1230530 ms] [07-18-2017 12:18:51] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+[INFO] [4536262 ms] [07-18-2017 13:13:56] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 861 ms
+[INFO] [4540731 ms] [07-18-2017 13:14:01] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 608 ms
+[INFO] [4540834 ms] [07-18-2017 13:14:01] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5a4673de: startup date [Tue Jul 18 13:14:00 EDT 2017]; root of context hierarchy
+[INFO] [4540842 ms] [07-18-2017 13:14:01] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4540845 ms] [07-18-2017 13:14:01] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4540846 ms] [07-18-2017 13:14:01] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4540851 ms] [07-18-2017 13:14:01] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4540851 ms] [07-18-2017 13:14:01] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4540855 ms] [07-18-2017 13:14:01] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4540856 ms] [07-18-2017 13:14:01] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4540856 ms] [07-18-2017 13:14:01] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4540867 ms] [07-18-2017 13:14:01] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4551422 ms] [07-18-2017 13:14:12] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 322 ms
+[INFO] [4551509 ms] [07-18-2017 13:14:12] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@39af439c: startup date [Tue Jul 18 13:14:11 EDT 2017]; root of context hierarchy
+[INFO] [4551515 ms] [07-18-2017 13:14:12] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [4551517 ms] [07-18-2017 13:14:12] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4551517 ms] [07-18-2017 13:14:12] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4551521 ms] [07-18-2017 13:14:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4551521 ms] [07-18-2017 13:14:12] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4551525 ms] [07-18-2017 13:14:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4551525 ms] [07-18-2017 13:14:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4551526 ms] [07-18-2017 13:14:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4551536 ms] [07-18-2017 13:14:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4567660 ms] [07-18-2017 13:14:28] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [4567666 ms] [07-18-2017 13:14:28] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+[INFO] [4585103 ms] [07-18-2017 13:14:45] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 331 ms
+[INFO] [2275 ms] [07-18-2017 13:15:58] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1089 ms
+[INFO] [2971 ms] [07-18-2017 13:15:59] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@46d301b7: startup date [Tue Jul 18 13:15:57 EDT 2017]; root of context hierarchy
+[INFO] [3014 ms] [07-18-2017 13:15:59] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [3017 ms] [07-18-2017 13:15:59] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [3017 ms] [07-18-2017 13:15:59] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [3030 ms] [07-18-2017 13:15:59] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [3030 ms] [07-18-2017 13:15:59] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [3041 ms] [07-18-2017 13:15:59] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3041 ms] [07-18-2017 13:15:59] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3041 ms] [07-18-2017 13:15:59] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3080 ms] [07-18-2017 13:15:59] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [7805 ms] [07-18-2017 13:16:04] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [7849 ms] [07-18-2017 13:16:04] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 41 ms
+[INFO] [167435 ms] [07-18-2017 13:18:43] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 508 ms
+[INFO] [167609 ms] [07-18-2017 13:18:43] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@66a8b07e: startup date [Tue Jul 18 13:18:43 EDT 2017]; root of context hierarchy
+[INFO] [167618 ms] [07-18-2017 13:18:43] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [167620 ms] [07-18-2017 13:18:43] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [167620 ms] [07-18-2017 13:18:43] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [167625 ms] [07-18-2017 13:18:43] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [167626 ms] [07-18-2017 13:18:43] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [167630 ms] [07-18-2017 13:18:43] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [167630 ms] [07-18-2017 13:18:43] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [167630 ms] [07-18-2017 13:18:43] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [167647 ms] [07-18-2017 13:18:43] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [223669 ms] [07-18-2017 13:19:39] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 332 ms
+[INFO] [223760 ms] [07-18-2017 13:19:40] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6c569e8a: startup date [Tue Jul 18 13:19:39 EDT 2017]; root of context hierarchy
+[INFO] [223766 ms] [07-18-2017 13:19:40] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [223767 ms] [07-18-2017 13:19:40] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [223768 ms] [07-18-2017 13:19:40] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [223771 ms] [07-18-2017 13:19:40] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [223772 ms] [07-18-2017 13:19:40] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [223775 ms] [07-18-2017 13:19:40] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [223776 ms] [07-18-2017 13:19:40] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [223776 ms] [07-18-2017 13:19:40] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [223787 ms] [07-18-2017 13:19:40] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [236364 ms] [07-18-2017 13:19:52] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 596 ms
+[INFO] [236469 ms] [07-18-2017 13:19:52] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@397bed5c: startup date [Tue Jul 18 13:19:52 EDT 2017]; root of context hierarchy
+[INFO] [236478 ms] [07-18-2017 13:19:52] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [236481 ms] [07-18-2017 13:19:52] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [236482 ms] [07-18-2017 13:19:52] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [236485 ms] [07-18-2017 13:19:52] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [236486 ms] [07-18-2017 13:19:52] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [236489 ms] [07-18-2017 13:19:52] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [236489 ms] [07-18-2017 13:19:52] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [236490 ms] [07-18-2017 13:19:52] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [236503 ms] [07-18-2017 13:19:52] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [243763 ms] [07-18-2017 13:20:00] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 309 ms
+[INFO] [243876 ms] [07-18-2017 13:20:00] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@654cdaea: startup date [Tue Jul 18 13:19:59 EDT 2017]; root of context hierarchy
+[INFO] [243884 ms] [07-18-2017 13:20:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.lang.String com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [243885 ms] [07-18-2017 13:20:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [243886 ms] [07-18-2017 13:20:00] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [243891 ms] [07-18-2017 13:20:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [243892 ms] [07-18-2017 13:20:00] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [243896 ms] [07-18-2017 13:20:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [243897 ms] [07-18-2017 13:20:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [243897 ms] [07-18-2017 13:20:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [243913 ms] [07-18-2017 13:20:00] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [251391 ms] [07-18-2017 13:20:07] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 333 ms
+[INFO] [251494 ms] [07-18-2017 13:20:07] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@69f985dc: startup date [Tue Jul 18 13:20:07 EDT 2017]; root of context hierarchy
+[INFO] [251505 ms] [07-18-2017 13:20:07] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [251508 ms] [07-18-2017 13:20:07] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [251509 ms] [07-18-2017 13:20:07] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [251515 ms] [07-18-2017 13:20:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [251516 ms] [07-18-2017 13:20:07] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [251521 ms] [07-18-2017 13:20:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [251522 ms] [07-18-2017 13:20:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [251522 ms] [07-18-2017 13:20:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [251541 ms] [07-18-2017 13:20:07] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [255725 ms] [07-18-2017 13:20:12] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [255732 ms] [07-18-2017 13:20:12] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+[INFO] [4933 ms] [07-20-2017 09:55:49] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 2668 ms
+[INFO] [6324 ms] [07-20-2017 09:55:50] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7ac82ca4: startup date [Thu Jul 20 09:55:46 EDT 2017]; root of context hierarchy
+[INFO] [6391 ms] [07-20-2017 09:55:50] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:(.+)(;+)}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [6397 ms] [07-20-2017 09:55:50] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [6398 ms] [07-20-2017 09:55:50] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [6460 ms] [07-20-2017 09:55:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [6460 ms] [07-20-2017 09:55:50] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [6474 ms] [07-20-2017 09:55:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [6474 ms] [07-20-2017 09:55:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [6475 ms] [07-20-2017 09:55:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [6574 ms] [07-20-2017 09:55:50] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [15647 ms] [07-20-2017 09:55:59] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [15671 ms] [07-20-2017 09:55:59] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+[INFO] [48960 ms] [07-20-2017 09:56:33] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 637 ms
+[INFO] [49091 ms] [07-20-2017 09:56:33] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@759b9797: startup date [Thu Jul 20 09:56:32 EDT 2017]; root of context hierarchy
+[INFO] [49098 ms] [07-20-2017 09:56:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [49101 ms] [07-20-2017 09:56:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [49102 ms] [07-20-2017 09:56:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [49107 ms] [07-20-2017 09:56:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [49108 ms] [07-20-2017 09:56:33] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [49113 ms] [07-20-2017 09:56:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [49113 ms] [07-20-2017 09:56:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [49114 ms] [07-20-2017 09:56:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [49131 ms] [07-20-2017 09:56:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [54604 ms] [07-20-2017 09:56:38] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [54623 ms] [07-20-2017 09:56:38] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+[INFO] [101228 ms] [07-20-2017 09:57:25] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 459 ms
+[INFO] [101349 ms] [07-20-2017 09:57:25] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@189c642b: startup date [Thu Jul 20 09:57:25 EDT 2017]; root of context hierarchy
+[INFO] [101356 ms] [07-20-2017 09:57:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+;+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [101357 ms] [07-20-2017 09:57:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [101358 ms] [07-20-2017 09:57:25] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [101362 ms] [07-20-2017 09:57:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [101362 ms] [07-20-2017 09:57:25] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [101367 ms] [07-20-2017 09:57:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [101367 ms] [07-20-2017 09:57:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [101367 ms] [07-20-2017 09:57:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [101380 ms] [07-20-2017 09:57:25] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [104196 ms] [07-20-2017 09:57:28] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [104202 ms] [07-20-2017 09:57:28] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+[INFO] [111340 ms] [07-20-2017 09:57:35] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 495 ms
+[INFO] [111454 ms] [07-20-2017 09:57:35] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@334ff90: startup date [Thu Jul 20 09:57:35 EDT 2017]; root of context hierarchy
+[INFO] [111460 ms] [07-20-2017 09:57:35] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [111461 ms] [07-20-2017 09:57:35] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [111462 ms] [07-20-2017 09:57:35] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [111466 ms] [07-20-2017 09:57:35] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [111466 ms] [07-20-2017 09:57:35] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [111470 ms] [07-20-2017 09:57:35] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [111470 ms] [07-20-2017 09:57:35] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [111470 ms] [07-20-2017 09:57:35] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [111482 ms] [07-20-2017 09:57:35] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [337156 ms] [07-20-2017 10:01:21] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 487 ms
+[INFO] [337287 ms] [07-20-2017 10:01:21] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ee3ce7: startup date [Thu Jul 20 10:01:20 EDT 2017]; root of context hierarchy
+[INFO] [337294 ms] [07-20-2017 10:01:21] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+\;+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [337296 ms] [07-20-2017 10:01:21] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [337297 ms] [07-20-2017 10:01:21] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [337301 ms] [07-20-2017 10:01:21] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [337301 ms] [07-20-2017 10:01:21] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [337303 ms] [07-20-2017 10:01:21] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [337304 ms] [07-20-2017 10:01:21] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [337304 ms] [07-20-2017 10:01:21] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [337313 ms] [07-20-2017 10:01:21] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [341459 ms] [07-20-2017 10:01:25] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [341465 ms] [07-20-2017 10:01:25] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+[INFO] [394602 ms] [07-20-2017 10:02:18] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 512 ms
+[INFO] [394742 ms] [07-20-2017 10:02:19] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@47687f9a: startup date [Thu Jul 20 10:02:18 EDT 2017]; root of context hierarchy
+[INFO] [394754 ms] [07-20-2017 10:02:19] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [394757 ms] [07-20-2017 10:02:19] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [394758 ms] [07-20-2017 10:02:19] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [394761 ms] [07-20-2017 10:02:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [394762 ms] [07-20-2017 10:02:19] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [394765 ms] [07-20-2017 10:02:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [394765 ms] [07-20-2017 10:02:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [394766 ms] [07-20-2017 10:02:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [394777 ms] [07-20-2017 10:02:19] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [490119 ms] [07-20-2017 10:03:54] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 448 ms
+[INFO] [490221 ms] [07-20-2017 10:03:54] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5ef6d1aa: startup date [Thu Jul 20 10:03:53 EDT 2017]; root of context hierarchy
+[INFO] [490232 ms] [07-20-2017 10:03:54] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [490235 ms] [07-20-2017 10:03:54] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [490236 ms] [07-20-2017 10:03:54] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [490240 ms] [07-20-2017 10:03:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [490240 ms] [07-20-2017 10:03:54] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [490244 ms] [07-20-2017 10:03:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [490244 ms] [07-20-2017 10:03:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [490245 ms] [07-20-2017 10:03:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [490254 ms] [07-20-2017 10:03:54] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [494166 ms] [07-20-2017 10:03:58] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [494173 ms] [07-20-2017 10:03:58] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+[INFO] [551258 ms] [07-20-2017 10:04:55] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 373 ms
+[INFO] [551351 ms] [07-20-2017 10:04:55] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@12e87a20: startup date [Thu Jul 20 10:04:55 EDT 2017]; root of context hierarchy
+[INFO] [551357 ms] [07-20-2017 10:04:55] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String[])
+[INFO] [551360 ms] [07-20-2017 10:04:55] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [551361 ms] [07-20-2017 10:04:55] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [551367 ms] [07-20-2017 10:04:55] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [551368 ms] [07-20-2017 10:04:55] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [551371 ms] [07-20-2017 10:04:55] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [551372 ms] [07-20-2017 10:04:55] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [551372 ms] [07-20-2017 10:04:55] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [551382 ms] [07-20-2017 10:04:55] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [558925 ms] [07-20-2017 10:05:03] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 366 ms
+[INFO] [559016 ms] [07-20-2017 10:05:03] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7507785f: startup date [Thu Jul 20 10:05:02 EDT 2017]; root of context hierarchy
+[INFO] [559021 ms] [07-20-2017 10:05:03] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String[])
+[INFO] [559023 ms] [07-20-2017 10:05:03] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [559023 ms] [07-20-2017 10:05:03] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [559029 ms] [07-20-2017 10:05:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [559029 ms] [07-20-2017 10:05:03] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [559033 ms] [07-20-2017 10:05:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [559034 ms] [07-20-2017 10:05:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [559034 ms] [07-20-2017 10:05:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [559047 ms] [07-20-2017 10:05:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [562018 ms] [07-20-2017 10:05:06] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [562023 ms] [07-20-2017 10:05:06] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+[INFO] [585753 ms] [07-20-2017 10:05:30] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 590 ms
+[INFO] [585893 ms] [07-20-2017 10:05:30] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@25c8d3d: startup date [Thu Jul 20 10:05:29 EDT 2017]; root of context hierarchy
+[INFO] [585899 ms] [07-20-2017 10:05:30] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [585902 ms] [07-20-2017 10:05:30] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [585902 ms] [07-20-2017 10:05:30] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [585906 ms] [07-20-2017 10:05:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [585908 ms] [07-20-2017 10:05:30] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [585912 ms] [07-20-2017 10:05:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [585912 ms] [07-20-2017 10:05:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [585913 ms] [07-20-2017 10:05:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [585925 ms] [07-20-2017 10:05:30] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [2952 ms] [07-20-2017 10:08:47] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1548 ms
+[INFO] [3848 ms] [07-20-2017 10:08:48] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f9f470d: startup date [Thu Jul 20 10:08:46 EDT 2017]; root of context hierarchy
+[INFO] [3896 ms] [07-20-2017 10:08:48] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeIn/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeIn(java.lang.String)
+[INFO] [3900 ms] [07-20-2017 10:08:48] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [3900 ms] [07-20-2017 10:08:48] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [3921 ms] [07-20-2017 10:08:48] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [3921 ms] [07-20-2017 10:08:48] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [3934 ms] [07-20-2017 10:08:48] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3935 ms] [07-20-2017 10:08:48] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3935 ms] [07-20-2017 10:08:48] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3990 ms] [07-20-2017 10:08:48] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [9357 ms] [07-20-2017 10:08:54] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [9390 ms] [07-20-2017 10:08:54] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+[INFO] [3926 ms] [07-20-2017 10:11:08] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1724 ms
+[INFO] [4774 ms] [07-20-2017 10:11:08] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4ccab993: startup date [Thu Jul 20 10:11:06 EDT 2017]; root of context hierarchy
+[INFO] [4824 ms] [07-20-2017 10:11:09] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [4826 ms] [07-20-2017 10:11:09] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String)
+[INFO] [4829 ms] [07-20-2017 10:11:09] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [4829 ms] [07-20-2017 10:11:09] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [4849 ms] [07-20-2017 10:11:09] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4849 ms] [07-20-2017 10:11:09] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [4864 ms] [07-20-2017 10:11:09] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4865 ms] [07-20-2017 10:11:09] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4865 ms] [07-20-2017 10:11:09] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4925 ms] [07-20-2017 10:11:09] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [8511 ms] [07-20-2017 10:11:12] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [8533 ms] [07-20-2017 10:11:12] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+[WARN] [8573 ms] [07-20-2017 10:11:12] [DefaultHandlerExceptionResolver (logException : 189)] -
+					Resolved exception caused by Handler execution: org.springframework.web.bind.ServletRequestBindingException: Missing matrix variable 'input' for method parameter of type String
+[INFO] [59381 ms] [07-20-2017 10:12:03] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 437 ms
+[INFO] [59502 ms] [07-20-2017 10:12:03] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4aa6e742: startup date [Thu Jul 20 10:12:03 EDT 2017]; root of context hierarchy
+[INFO] [59511 ms] [07-20-2017 10:12:03] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [59512 ms] [07-20-2017 10:12:03] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String)
+[INFO] [59514 ms] [07-20-2017 10:12:03] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [59515 ms] [07-20-2017 10:12:03] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [59520 ms] [07-20-2017 10:12:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [59520 ms] [07-20-2017 10:12:03] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [59526 ms] [07-20-2017 10:12:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [59527 ms] [07-20-2017 10:12:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [59527 ms] [07-20-2017 10:12:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [59546 ms] [07-20-2017 10:12:03] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [63988 ms] [07-20-2017 10:12:08] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [63996 ms] [07-20-2017 10:12:08] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+[WARN] [64002 ms] [07-20-2017 10:12:08] [DefaultHandlerExceptionResolver (logException : 189)] -
+					Resolved exception caused by Handler execution: org.springframework.web.bind.ServletRequestBindingException: Missing matrix variable 'input' for method parameter of type String
+[INFO] [126756 ms] [07-20-2017 10:13:10] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 576 ms
+[INFO] [126917 ms] [07-20-2017 10:13:11] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@3190a0aa: startup date [Thu Jul 20 10:13:10 EDT 2017]; root of context hierarchy
+[INFO] [126924 ms] [07-20-2017 10:13:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [126925 ms] [07-20-2017 10:13:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [126927 ms] [07-20-2017 10:13:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [126927 ms] [07-20-2017 10:13:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [126931 ms] [07-20-2017 10:13:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [126932 ms] [07-20-2017 10:13:11] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [126935 ms] [07-20-2017 10:13:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [126935 ms] [07-20-2017 10:13:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [126935 ms] [07-20-2017 10:13:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [126957 ms] [07-20-2017 10:13:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [131277 ms] [07-20-2017 10:13:15] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [131287 ms] [07-20-2017 10:13:15] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 9 ms
+[WARN] [131295 ms] [07-20-2017 10:13:15] [DefaultHandlerExceptionResolver (logException : 189)] -
+					Resolved exception caused by Handler execution: org.springframework.web.bind.ServletRequestBindingException: Missing matrix variable 'input' for method parameter of type String[]
+[INFO] [161374 ms] [07-20-2017 10:13:45] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 425 ms
+[INFO] [161488 ms] [07-20-2017 10:13:45] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@20720c2e: startup date [Thu Jul 20 10:13:45 EDT 2017]; root of context hierarchy
+[INFO] [161494 ms] [07-20-2017 10:13:45] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [161495 ms] [07-20-2017 10:13:45] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [161498 ms] [07-20-2017 10:13:45] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [161498 ms] [07-20-2017 10:13:45] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [161503 ms] [07-20-2017 10:13:45] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [161504 ms] [07-20-2017 10:13:45] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [161508 ms] [07-20-2017 10:13:45] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [161508 ms] [07-20-2017 10:13:45] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [161508 ms] [07-20-2017 10:13:45] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [161519 ms] [07-20-2017 10:13:45] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [166386 ms] [07-20-2017 10:13:50] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [166394 ms] [07-20-2017 10:13:50] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 7 ms
+[WARN] [166401 ms] [07-20-2017 10:13:50] [DefaultHandlerExceptionResolver (logException : 189)] -
+					Resolved exception caused by Handler execution: org.springframework.web.bind.ServletRequestBindingException: Missing matrix variable 'input' for method parameter of type String[]
+[WARN] [210717 ms] [07-20-2017 10:14:34] [DefaultHandlerExceptionResolver (logException : 189)] -
+					Resolved exception caused by Handler execution: org.springframework.web.bind.ServletRequestBindingException: Missing matrix variable 'input' for method parameter of type String[]
+[INFO] [247494 ms] [07-20-2017 10:15:11] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 435 ms
+[INFO] [247604 ms] [07-20-2017 10:15:11] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@2a352a2e: startup date [Thu Jul 20 10:15:11 EDT 2017]; root of context hierarchy
+[INFO] [247613 ms] [07-20-2017 10:15:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [247613 ms] [07-20-2017 10:15:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [247615 ms] [07-20-2017 10:15:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [247615 ms] [07-20-2017 10:15:11] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [247619 ms] [07-20-2017 10:15:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [247620 ms] [07-20-2017 10:15:11] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [247622 ms] [07-20-2017 10:15:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [247622 ms] [07-20-2017 10:15:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [247622 ms] [07-20-2017 10:15:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [247633 ms] [07-20-2017 10:15:11] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [254345 ms] [07-20-2017 10:15:18] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [254357 ms] [07-20-2017 10:15:18] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 10 ms
+[INFO] [286785 ms] [07-20-2017 10:15:50] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 446 ms
+[INFO] [286890 ms] [07-20-2017 10:15:51] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@15564694: startup date [Thu Jul 20 10:15:50 EDT 2017]; root of context hierarchy
+[INFO] [286901 ms] [07-20-2017 10:15:51] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [286902 ms] [07-20-2017 10:15:51] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [286903 ms] [07-20-2017 10:15:51] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [286904 ms] [07-20-2017 10:15:51] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [286908 ms] [07-20-2017 10:15:51] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [286908 ms] [07-20-2017 10:15:51] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [286912 ms] [07-20-2017 10:15:51] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [286912 ms] [07-20-2017 10:15:51] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [286912 ms] [07-20-2017 10:15:51] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [286923 ms] [07-20-2017 10:15:51] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [288999 ms] [07-20-2017 10:15:53] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [289004 ms] [07-20-2017 10:15:53] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 4 ms
+[INFO] [368535 ms] [07-20-2017 10:17:12] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 416 ms
+[INFO] [368627 ms] [07-20-2017 10:17:12] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@49a504b: startup date [Thu Jul 20 10:17:12 EDT 2017]; root of context hierarchy
+[INFO] [368634 ms] [07-20-2017 10:17:12] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [368661 ms] [07-20-2017 10:17:12] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [368663 ms] [07-20-2017 10:17:12] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [368666 ms] [07-20-2017 10:17:12] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [368676 ms] [07-20-2017 10:17:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [368677 ms] [07-20-2017 10:17:12] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [368683 ms] [07-20-2017 10:17:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [368683 ms] [07-20-2017 10:17:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [368683 ms] [07-20-2017 10:17:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [368693 ms] [07-20-2017 10:17:12] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [370906 ms] [07-20-2017 10:17:15] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [370912 ms] [07-20-2017 10:17:15] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+[INFO] [388989 ms] [07-20-2017 10:17:33] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 428 ms
+[INFO] [389085 ms] [07-20-2017 10:17:33] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@295dc000: startup date [Thu Jul 20 10:17:32 EDT 2017]; root of context hierarchy
+[INFO] [389093 ms] [07-20-2017 10:17:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [389094 ms] [07-20-2017 10:17:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [389098 ms] [07-20-2017 10:17:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [389099 ms] [07-20-2017 10:17:33] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [389106 ms] [07-20-2017 10:17:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [389107 ms] [07-20-2017 10:17:33] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [389110 ms] [07-20-2017 10:17:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [389111 ms] [07-20-2017 10:17:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [389111 ms] [07-20-2017 10:17:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [389129 ms] [07-20-2017 10:17:33] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [413298 ms] [07-20-2017 10:17:57] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [413303 ms] [07-20-2017 10:17:57] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 3 ms
+[INFO] [608876 ms] [07-20-2017 10:21:13] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 490 ms
+[INFO] [609010 ms] [07-20-2017 10:21:13] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@78637d93: startup date [Thu Jul 20 10:21:12 EDT 2017]; root of context hierarchy
+[INFO] [609016 ms] [07-20-2017 10:21:13] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [609017 ms] [07-20-2017 10:21:13] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [609018 ms] [07-20-2017 10:21:13] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [609018 ms] [07-20-2017 10:21:13] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [609022 ms] [07-20-2017 10:21:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [609023 ms] [07-20-2017 10:21:13] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [609026 ms] [07-20-2017 10:21:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [609027 ms] [07-20-2017 10:21:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [609029 ms] [07-20-2017 10:21:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [609046 ms] [07-20-2017 10:21:13] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [612810 ms] [07-20-2017 10:21:17] [DispatcherServlet (initServletBean : 489)] -
+					FrameworkServlet 'dispatcherServlet': initialization started
+[INFO] [612816 ms] [07-20-2017 10:21:17] [DispatcherServlet (initServletBean : 508)] -
+					FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+[INFO] [2991 ms] [07-20-2017 10:52:01] [ContextLoader (prepareEmbeddedWebApplicationContext : 276)] -
+					Root WebApplicationContext: initialization completed in 1514 ms
+[INFO] [3847 ms] [07-20-2017 10:52:02] [RequestMappingHandlerAdapter (initControllerAdviceCache : 534)] -
+					Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@24258f27: startup date [Thu Jul 20 10:52:00 EDT 2017]; root of context hierarchy
+[INFO] [3901 ms] [07-20-2017 10:52:02] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeLine/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeLine(java.lang.String)
+[INFO] [3902 ms] [07-20-2017 10:52:02] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/codeMany/{input:.+}],methods=[GET],produces=[application/json]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.script.controller.RestControl.codeMany(java.lang.String...)
+[INFO] [3906 ms] [07-20-2017 10:52:02] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+[INFO] [3907 ms] [07-20-2017 10:52:02] [RequestMappingHandlerMapping (register : 543)] -
+					Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+[INFO] [3947 ms] [07-20-2017 10:52:02] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/home] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [3948 ms] [07-20-2017 10:52:02] [SimpleUrlHandlerMapping (registerHandler : 349)] -
+					Root mapping to handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+[INFO] [3962 ms] [07-20-2017 10:52:02] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3963 ms] [07-20-2017 10:52:02] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [3963 ms] [07-20-2017 10:52:02] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+[INFO] [4009 ms] [07-20-2017 10:52:02] [SimpleUrlHandlerMapping (registerHandler : 362)] -
+					Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]

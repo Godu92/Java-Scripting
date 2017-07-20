@@ -4,18 +4,18 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Condition {
-	private String field;
+	private Object field;
 	
 	private Object value;
 	
 	private Condition.Operator operator;
 	
-	public String getField() {
+	public Object getField() {
 		
 		return field;
 	}
 	
-	public void setField(String field) {
+	public void setField(Object field) {
 		
 		this.field = field;
 	}
@@ -35,18 +35,27 @@ public class Condition {
 		return operator;
 	}
 	
-	public void setOperator(Condition.Operator o) {
+	private void setOperator(Condition.Operator o) {
 		
 		this.operator = o;
 	}
 	
+	public static Condition getCondition(Object field, Condition.Operator o,
+			Object value) {
+		
+		Condition c = new Condition();
+		c.setField(field);
+		c.setOperator(o);
+		c.setValue(value);
+		return c;
+	}
+	
 	public enum Operator {
-		NOT_EQUAL_TO("NOT_EQUAL_TO"), 
-		EQUAL_TO("EQUAL_TO"),
-		GREATER_THAN("GREATER_THAN"), 
-		LESS_THAN("LESS_THAN"), 
-		GREATER_THAN_OR_EQUAL_TO("GREATER_THAN_OR_EQUAL_TO"), 
-		LESS_THAN_OR_EQUAL_TO("LESS_THAN_OR_EQUAL_TO");
+		NOT_EQUAL_TO("NOT_EQUAL_TO"), EQUAL_TO("EQUAL_TO"), GREATER_THAN(
+				"GREATER_THAN"), LESS_THAN(
+						"LESS_THAN"), GREATER_THAN_OR_EQUAL_TO(
+								"GREATER_THAN_OR_EQUAL_TO"), LESS_THAN_OR_EQUAL_TO(
+										"LESS_THAN_OR_EQUAL_TO");
 		
 		private final String value;
 		
